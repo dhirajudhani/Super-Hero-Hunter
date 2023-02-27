@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    width:100%;
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 300;
+    display:flex;
+    flex-flow: column;
+    justify-content:space-around;
+    align-items:center;
+    background-image: url(./images/marvel.jpeg);
+    background-position: top center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* Styling hero card and hero information */
+.hero_card,.hero_info{
+    display: flex;
+    flex-flow: column;
+    padding:20px;
+    background: rgba(0, 0, 0, 0.549);
+    border-radius: 5px;
+
+}
+.container{
+    display: flex;
+    flex-flow:row;
+    width:80%;
+    justify-content: space-around;
+    
+}
+.hero_info{
+    max-width: 600px;
+}
